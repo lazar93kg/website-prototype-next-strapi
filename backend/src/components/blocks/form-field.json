@@ -1,0 +1,64 @@
+{
+  "collectionName": "components_blocks_form_fields",
+  "info": {
+    "displayName": "FormField",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "formTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.heading"
+    },
+    "formSubhead": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.heading"
+    },
+    "formParagraph": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.heading"
+    },
+    "formImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.image"
+    },
+    "formField": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.input-text"
+    },
+    "formSelect": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.select-type"
+    },
+    "formTextArea": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.text-area"
+    },
+    "formSubmit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.button"
+    },
+    "formSubheadTwo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.heading"
+    },
+    "formLayout": {
+      "type": "enumeration",
+      "enum": [
+        "leftForm",
+        "rightForm",
+        "noTextContent"
+      ],
+      "required": false
+    }
+  }
+}

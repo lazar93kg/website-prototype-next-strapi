@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "navigations",
+  "info": {
+    "singularName": "navigation",
+    "pluralName": "navigations",
+    "displayName": "navigation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "navbar": {
+      "type": "dynamiczone",
+      "components": [
+        "component.link",
+        "component.drop-down"
+      ]
+    },
+    "navLogo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.logo"
+    }
+  }
+}

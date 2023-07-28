@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_component_backgrounds",
+  "info": {
+    "displayName": "background"
+  },
+  "options": {},
+  "attributes": {
+    "lightBackground": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "darkBackground": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

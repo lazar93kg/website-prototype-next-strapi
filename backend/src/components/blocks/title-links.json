@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_blocks_title_links",
+  "info": {
+    "displayName": "titleLinks",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "itemBackground": {
+      "type": "boolean"
+    },
+    "itemsLayout": {
+      "type": "enumeration",
+      "enum": [
+        "oneRow",
+        "twoRows"
+      ]
+    },
+    "titleLinkItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.image-title-links"
+    },
+    "itemPostition": {
+      "type": "enumeration",
+      "enum": [
+        "topLeft",
+        "topRight",
+        "bottomLeft",
+        "bottomRight"
+      ]
+    },
+    "titleLinkBG": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.background"
+    },
+    "titleLinkTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.heading"
+    }
+  }
+}

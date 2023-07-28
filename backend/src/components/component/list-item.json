@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_component_list_items",
+  "info": {
+    "displayName": "listItem",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "listImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "listTitle": {
+      "type": "string"
+    },
+    "listparagraph": {
+      "type": "text"
+    },
+    "listTitlePosition": {
+      "type": "enumeration",
+      "enum": [
+        "center",
+        "left"
+      ]
+    },
+    "listParagraphPosition": {
+      "type": "enumeration",
+      "enum": [
+        "center",
+        "left"
+      ]
+    }
+  }
+}

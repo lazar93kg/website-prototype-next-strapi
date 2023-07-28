@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_component_select_types",
+  "info": {
+    "displayName": "select",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "selectOption": {
+      "type": "string"
+    },
+    "selectDefault": {
+      "type": "string"
+    },
+    "selectTitle": {
+      "type": "string"
+    }
+  }
+}

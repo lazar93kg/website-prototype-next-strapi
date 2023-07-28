@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_component_card_images",
+  "info": {
+    "displayName": "cardImage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cardImageTitle": {
+      "type": "string"
+    },
+    "cardImageTitlePosition": {
+      "type": "enumeration",
+      "enum": [
+        "titleRight",
+        "titleLeft",
+        "titleTop",
+        "titleBottom"
+      ]
+    },
+    "cardImageType": {
+      "type": "enumeration",
+      "enum": [
+        "horizontal",
+        "vertical"
+      ]
+    },
+    "cardImageBackground": {
+      "type": "boolean"
+    },
+    "CardImg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

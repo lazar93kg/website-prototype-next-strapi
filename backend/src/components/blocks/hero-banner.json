@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_blocks_hero_banners",
+  "info": {
+    "displayName": "heroBanner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "layoutHeroBanner": {
+      "type": "enumeration",
+      "enum": [
+        "imageButton",
+        "actionButton"
+      ]
+    },
+    "gradientHeroBanner": {
+      "type": "boolean"
+    },
+    "buttonHeroBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.button"
+    },
+    "titleHeroBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.heading"
+    },
+    "paragraphHeroBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.heading"
+    },
+    "imgHeroBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.image"
+    },
+    "bgHeroBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.background"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_component_buttons",
+  "info": {
+    "displayName": "button",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "error",
+        "success"
+      ]
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "small",
+        "medium",
+        "large"
+      ]
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "outlined",
+        "default",
+        "text"
+      ]
+    },
+    "destination": {
+      "type": "string"
+    }
+  }
+}

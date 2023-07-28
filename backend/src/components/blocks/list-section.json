@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_blocks_list_sections",
+  "info": {
+    "displayName": "listSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "listTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.heading"
+    },
+    "listSubhead": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.heading"
+    },
+    "listSubheadTwo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.heading"
+    },
+    "listItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.list-item"
+    },
+    "listBody": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.heading"
+    }
+  }
+}

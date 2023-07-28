@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_component_radios",
+  "info": {
+    "displayName": "radio",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "radioLabel": {
+      "type": "string"
+    },
+    "radioName": {
+      "type": "string"
+    },
+    "radioValue": {
+      "type": "boolean"
+    },
+    "defaultChecked": {
+      "type": "boolean"
+    },
+    "radioTitle": {
+      "type": "string"
+    }
+  }
+}

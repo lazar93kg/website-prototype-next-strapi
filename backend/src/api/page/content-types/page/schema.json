@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pagename": {
+      "type": "uid"
+    },
+    "comps": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.features",
+        "blocks.section",
+        "blocks.hero-banner",
+        "blocks.text-header",
+        "blocks.banner",
+        "blocks.hero-header",
+        "blocks.testimonial-comp-v1",
+        "blocks.testimonial-v2",
+        "blocks.form-field",
+        "blocks.card-images",
+        "blocks.title-links",
+        "blocks.list-section"
+      ]
+    }
+  }
+}

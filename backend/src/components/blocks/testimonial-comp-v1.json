@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_blocks_testimonial_comp_v1s",
+  "info": {
+    "displayName": "testimonialV1",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleV1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.heading"
+    },
+    "imgV1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.image"
+    },
+    "subheadV1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.heading"
+    },
+    "paragraphV1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.heading"
+    }
+  }
+}

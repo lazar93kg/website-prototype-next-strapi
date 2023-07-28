@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_blocks_features",
+  "info": {
+    "displayName": "features",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.card"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

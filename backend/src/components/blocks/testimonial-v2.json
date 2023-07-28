@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_blocks_testimonial_v2s",
+  "info": {
+    "displayName": "testimonialV2"
+  },
+  "options": {},
+  "attributes": {
+    "imgV2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.image"
+    },
+    "titleV2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.heading"
+    },
+    "paragraphV2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.heading"
+    },
+    "quote": {
+      "type": "boolean"
+    }
+  }
+}

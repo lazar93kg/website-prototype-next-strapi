@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_component_icon_holders",
+  "info": {
+    "displayName": "iconHolder",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imageHolder": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.image"
+    },
+    "itemTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.heading"
+    },
+    "itemParagraph": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.heading"
+    }
+  }
+}

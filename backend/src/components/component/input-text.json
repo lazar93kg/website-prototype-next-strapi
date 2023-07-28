@@ -1,0 +1,54 @@
+{
+  "collectionName": "components_component_input_texts",
+  "info": {
+    "displayName": "fieldInput",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "fieldLabel": {
+      "type": "string"
+    },
+    "fieldName": {
+      "type": "string"
+    },
+    "fieldLabelHtml": {
+      "type": "string"
+    },
+    "fieldPlaceholder": {
+      "type": "string"
+    },
+    "fieldMb": {
+      "type": "string"
+    },
+    "fieldType": {
+      "type": "enumeration",
+      "enum": [
+        "text",
+        "email",
+        "password"
+      ]
+    },
+    "formIconLight": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "formIconDark": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

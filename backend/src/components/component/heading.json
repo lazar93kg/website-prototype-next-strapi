@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_component_headings",
+  "info": {
+    "displayName": "text",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "body": {
+      "type": "text"
+    },
+    "position": {
+      "type": "enumeration",
+      "enum": [
+        "center",
+        "start",
+        "end"
+      ],
+      "required": false,
+      "default": "center"
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "H1",
+        "H2",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "Subhead",
+        "Body1",
+        "Body2",
+        "Button",
+        "Caption",
+        "SmallCaption",
+        "Overline"
+      ],
+      "required": false,
+      "default": "Body1"
+    }
+  }
+}

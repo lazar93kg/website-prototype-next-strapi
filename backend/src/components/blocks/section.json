@@ -1,0 +1,87 @@
+{
+  "collectionName": "components_blocks_sections",
+  "info": {
+    "displayName": "section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "objectFit": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "contain",
+        "cover",
+        "fill",
+        "scale-down"
+      ]
+    },
+    "imgPosition": {
+      "type": "enumeration",
+      "enum": [
+        "right",
+        "left"
+      ]
+    },
+    "mobileImgPosition": {
+      "type": "enumeration",
+      "enum": [
+        "top",
+        "bottom"
+      ]
+    },
+    "gap": {
+      "type": "integer"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.button"
+    },
+    "sectionName": {
+      "type": "string",
+      "required": true,
+      "private": true,
+      "default": "section",
+      "unique": false
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "backgroundImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "darkBackgroundImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "text": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.heading"
+    }
+  }
+}
