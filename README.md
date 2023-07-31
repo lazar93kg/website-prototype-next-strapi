@@ -23,5 +23,6 @@ Welcome to the prototype website built with Next.js, Strapi, GraphQL, Theme-UI, 
 - **GraphQL:** A powerful query language for APIs that enhances data fetching efficiency.
 - **Theme-UI:** A design system and styling library for consistent theming and styling.
 - **TypeScript:** A typed superset of JavaScript, enhancing code quality and maintainability.
+  
 ## License and copyright
 This project is licensed under the Devinova AB.
